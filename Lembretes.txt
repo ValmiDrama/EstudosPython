@@ -1,0 +1,1 @@
+objeto “iterável”, ele é qualquer tipo de coisa que você consegue realizar um laço sobre, por exemplo, um array, um objeto, uma sequencia de números, uma stream, ou qualquer coisa.
