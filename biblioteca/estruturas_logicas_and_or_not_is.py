@@ -2,6 +2,7 @@
 #--------------------------------#
 #       Estrutruas Lógicas
 #--------------------------------#
+https://www.w3schools.com/python/python_operators.asp
 Estrutruas Lógicas: and (e), or (ou), not (não), is (é)
 Operadores unários:
     - not;
