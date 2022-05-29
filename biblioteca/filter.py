@@ -49,10 +49,38 @@ print(inativos)
 
 # Combinar filter() e map()
 
+import statistics
+
+
 nomes = ['Vanessa', 'Ana', 'Maria']
 
 # Devemos criar uma lista contendo 'Sua instrutrura é' + nome, desde que cada nome tenha menos de 5 caracteres
 
-lista = list(map(lambda nome: f'Sua instrutora é {nome}', filter(lambda nome: len(nome) < 5, nomes)))
+#lista = list(map(lambda nome: f'Sua instrutora é {nome}', filter(lambda nome: len(nome) < 5, nomes)))
 
-print(lista)
+#print(lista)
+
+#Estudos complementar:
+
+#pdata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#pmedia = statistics.mean(pdata)
+#print(f'media: {pmedia}')
+#
+
+#resultado = filter(lambda x: x> pmedia and x < 10, pdata)
+#print(list(resultado))
+
+
+def vpar(x):
+    return (x % 2) == 0
+
+def vimp(x):
+    return (x % 2) == 0
+
+nData = list(range(1,20))
+
+l2 = list(filter((lambda x:x>=0 and vpar(x)), nData))
+l1 = list(filter((lambda x:x>=0 and vimp(x)), nData))
+
+print(f'\n Par: {l2}')
+print(f'\n Impar: {l1}')
