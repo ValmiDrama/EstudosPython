@@ -1,8 +1,9 @@
 """
+#--------------------------------#
+            Unittest
+#--------------------------------#
 Unittest - Antes e após hooks
-#--------------------------------#----
 hooks - são os testes em si. Ou seja, a execução dos testes.
-#--------------------------------#----
 setup() -> é excutado antes de cada método de teste. É util para criarmos instâncias de objetos e outros dados;
 tearDown() -> é executado ao final de cada método de teste. É útil para excluir dados ou fechar conexões com
 bancos de dados.
