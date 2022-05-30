@@ -1,5 +1,6 @@
 import pandas as pd
 
+<<<<<<< HEAD
 import tabula
 #--------------------------------#
 #            Pandas
@@ -120,3 +121,12 @@ print(dfExcluida)
 # Converta um recurso numérico contínuo em um recurso categórico
 # Crie um DataFrame a partir da área de transferência
 # Crie um DataFrame a partir de vários arquivos
+=======
+print('Inicio')
+
+teste_dicionario = {'Nascimento': ['01.12', '12.01'], 'valor': ['36', '63'], 'nome': ['Jr', 'Rj'], 'produto': ['22', '33'],}
+
+# teste_dataFrame = pd.DataFrame(teste_dicionario)
+
+print(teste_dicionario)
+>>>>>>> b39c09d14b12e041afb18e8ae7851c78f4c72c32

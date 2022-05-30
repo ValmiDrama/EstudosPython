@@ -2,10 +2,13 @@ import pandas as pd
 
 import tabula
 
+<<<<<<< HEAD
 #--------------------------------#
 #            Pandas
 #--------------------------------#
 
+=======
+>>>>>>> b39c09d14b12e041afb18e8ae7851c78f4c72c32
 #obs: DataFrame é uma estrutura de dados bidimensional com os dados alinhados
 #     de forma tabular em linhas e colunas, mutável em tamanho e potencialmente 
 #     heterogênea, semelhantemente a uma pasta de trabalho do MS-EXCEL.
@@ -30,14 +33,25 @@ print(len(list))
 
 #TODO Convert a List of Lists transposta
 
+<<<<<<< HEAD
 lista_produtos = [['laptop', 'impressora', 'tablet', 'mesa', 'cadeira'],[1300, 200, 300, '', 200]]
 lista_produtos2 = [['notebook', 'celular', 'geladeira', 'fogao', 'microondas'],[2300, '', 1300, 650, 200]]
+=======
+lista_produtos = [['laptop', 'impressora', 'tablet', 'mesa', 'cadeira'],[1300, 200, 300, 450, 200]]
+lista_produtos2 = [['notebook', 'celular', 'geladeira', 'fogao', 'microondas'],[2300, 800, 1300, 650, 200]]
+>>>>>>> b39c09d14b12e041afb18e8ae7851c78f4c72c32
 df = pd.DataFrame(lista_produtos).transpose()
 df2 = pd.DataFrame(lista_produtos2).transpose()
 df.columns = ['Produto', 'Valor']
 df2.columns = ['Produto', 'Valor']
+<<<<<<< HEAD
 # print(df)
 # print(df2)
+=======
+
+print(df)
+print(df2)
+>>>>>>> b39c09d14b12e041afb18e8ae7851c78f4c72c32
 
 
 # #! METODOS
@@ -86,6 +100,7 @@ df2.columns = ['Produto', 'Valor']
 # df['Val 10x'] = df['Valor']*10
 # print(df)
   
+<<<<<<< HEAD
 # #  append(ARQUIVO) - Junta dois DataFrame Linhas, Podendo ser adicionado mais de 1x, (duplicidade)
 # df = df.append(df2)
 # print(df)
@@ -114,6 +129,13 @@ df2.columns = ['Produto', 'Valor']
 
 # # MesclaTabelas
 # df = df.merge(df2) sendo que df e df2 tem 1 coluna em comun.
+=======
+#  append(ARQUIVO) - Junta dois DataFrame Linhas, Podendo ser adicionado mais de 1x, (duplicidade)
+df = df.append(df2)
+print(df)
+
+
+>>>>>>> b39c09d14b12e041afb18e8ae7851c78f4c72c32
 
 #TODO Panda
 
