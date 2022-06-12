@@ -145,22 +145,33 @@ print(novo)
 
 # Forma não usual de criação de dicionários
 
-outro = {}.fromkeys('a', 'b')
+# outro = {}.fromkeys('a', 'b')
 
-print(outro)
-print(type(outro))
+# print(outro)
+# print(type(outro))
 
 
-usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
-print(usuario)
-print(type(usuario))
+# usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
+# print(usuario)
+# print(type(usuario))
 
-# O método fromkeys recebe dois parâmetros: um interável e um valor.
-# Ele vai gerar para cada valor do iterável uma chave e irá atribuir a esta chave o valor informado.
+# # O método fromkeys recebe dois parâmetros: um interável e um valor.
+# # Ele vai gerar para cada valor do iterável uma chave e irá atribuir a esta chave o valor informado.
 
-veja = {}.fromkeys('teste', 'valor')
-print(veja)
+# veja = {}.fromkeys('teste', 'valor')
+# print(veja)
 
-veja = {}.fromkeys(range(1, 11), 'novo')
+# veja = {}.fromkeys(range(1, 11), 'novo')
 
-print(veja)
+# print(veja)
+
+a = {'um':1, 'dois':2}
+print(a)
+
+b = dict(um=1, dois=2)
+print(b)
+
+# 'C' sem indice e slice
+c=dict(zip(['tres', 'dois', 'um'],[3,2,1]))
+
+d= dict([('dois',2),('um',1)])
